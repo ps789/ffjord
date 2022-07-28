@@ -1,0 +1,6 @@
+Requirement already satisfied: torchvision in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (0.2.2)
+Requirement already satisfied: numpy in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (from torchvision) (1.22.3)
+Requirement already satisfied: six in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (from torchvision) (1.16.0)
+Requirement already satisfied: torch in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (from torchvision) (1.10.2)
+Requirement already satisfied: pillow>=4.1.1 in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (from torchvision) (9.2.0)
+Requirement already satisfied: typing_extensions in c:\users\phillipsi\anaconda3\envs\ffjord\lib\site-packages (from torch->torchvision) (4.1.1)

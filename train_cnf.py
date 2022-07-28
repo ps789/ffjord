@@ -342,7 +342,7 @@ if __name__ == "__main__":
             for state in optimizer.state.values():
                 for k, v in state.items():
                     if torch.is_tensor(v):
-                        state[k] = v
+                        state[k] = cvt(v)
 
     if torch.cuda.is_available():
         model = torch.nn.DataParallel(model).cuda()
